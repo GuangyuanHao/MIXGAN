@@ -1,7 +1,5 @@
-# Multi-Domain Generative Adversarial Networks (MDGAN)
-## The related paper was submitted to International Joint Conference on Artificial Intelligence, 2018.
-
-## Code will be released after the paper is accepted.
+# MIXGAN: Learning Concepts from Different Domains for Mixture Generation
+## The paper was accepted by International Joint Conference on Artificial Intelligence, 2018.
 
 ## Introduction
 
@@ -18,16 +16,16 @@
   3.	We show our model can successfully learn to generate mixed-style samples with shape style of one dataset and color style of another dataset in several tasks.
   
 ## Results
-  ![digit](https://github.com/GuangyuanHao/MDGAN/raw/master/Results/digit.jpg) 
-  ![bag](https://github.com/GuangyuanHao/MDGAN/raw/master/Results/bag.jpg)
+  ![digit](https://github.com/GuangyuanHao/MIXGAN/raw/master/Results/digit.jpg) 
+  ![bag](https://github.com/GuangyuanHao/MIXGAN/raw/master/Results/bag.jpg)
 ## Other Applications
 ### Learning a Joint Distribution of Two Domains
   Our model can also learn a Joint Distribution of Two Domains successfully as CoGAN did, when two datasets have similar global structural information.
   #### Results
-   ![joint1](https://github.com/GuangyuanHao/MDGAN/raw/master/Results/joint1.jpg) 
-   ![joint2](https://github.com/GuangyuanHao/MDGAN/raw/master/Results/joint2.jpg) 
+   ![joint1](https://github.com/GuangyuanHao/MIXGAN/raw/master/Results/joint1.jpg) 
+   ![joint2](https://github.com/GuangyuanHao/MIXGAN/raw/master/Results/joint2.jpg) 
 ### Image-to-Image-Translation
   Our model can also accomplish image-to-image translation tasks successfully as UNIT did, when two datasets have similar global structural information.
   #### Results
-   ![tran3](https://github.com/GuangyuanHao/MDGAN/raw/master/Results/tran3.jpg) 
-   ![tran4](https://github.com/GuangyuanHao/MDGAN/raw/master/Results/tran4.jpg) 
+   ![tran3](https://github.com/GuangyuanHao/MIXGAN/raw/master/Results/tran3.jpg) 
+   ![tran4](https://github.com/GuangyuanHao/MIXGAN/raw/master/Results/tran4.jpg) 
