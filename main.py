@@ -7,7 +7,7 @@ from model import mixgan
 
 parser = argparse.ArgumentParser(description='')
 parser.add_argument('--dataset_dir', dest='dataset_dir', default='m2v', help='path of the dataset')
-parser.add_argument('--epoch', dest='epoch', type=int, default=1000000, help='# of epoch')
+parser.add_argument('--epoch', dest='epoch', type=int, default=300, help='# of epoch')
 parser.add_argument('--batch_size', dest='batch_size', type=int, default=64, help='# images in batch')
 parser.add_argument('--z_dim', dest='z_dim', type=int, default=2048, help='z dim')
 parser.add_argument('--train_size', dest='train_size', type=int, default=1e8, help='# images used to train')
